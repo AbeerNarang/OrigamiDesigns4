@@ -1,0 +1,50 @@
+.grid{
+border-radius: 50px;
+display: flex;
+justify-content: space-evenly;
+}
+.origami{
+border: 2px solid black;
+border-radius: 20px; 
+padding: 30px;
+margin: 25px;
+background-color: white;
+width: 310px;
+position: relative;
+}
+.origami p{
+position: absolute;  
+}
+.menu{
+display: flex;
+justify-content: space-between;
+background-color: black;
+padding: 15px;    
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: white;
+}
+.fact{
+display: flex;
+justify-content: space-evenly;    
+}
+.facts{
+font-family: fantasy;     
+}
+body{
+margin: 0px;    
+background-color:turquoise
+}
+a:link{
+color:blue;    
+}
+a:visited{
+color:red;    
+}
+.origami:hover{
+transform: scale(1.1);    
+}
+a{
+text-decoration: none;    
+}
